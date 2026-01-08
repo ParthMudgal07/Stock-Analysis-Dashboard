@@ -8,10 +8,10 @@ The project focuses on **exploratory financial analysis and risk assessment**, a
 ## 🖼️ Dashboard Preview
 
 ### Main Dashboard
-![Main Dashboard](Assets/1.png)
+![Main Dashboard](1.png)
 
 ### Stock Analysis & Visualization
-![Stock Analysis](Assets/2.png)
+![Stock Analysis](2.png)
 
 Live demo:
 URL Link for dashboard:
