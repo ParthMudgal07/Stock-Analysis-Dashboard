@@ -5,7 +5,20 @@ The project focuses on **exploratory financial analysis and risk assessment**, a
 
 ---
 
-## 🎯 Project Objective
+## 🖼️ Dashboard Preview
+
+### Main Dashboard
+![Main Dashboard](Assets/1.png)
+
+### Stock Analysis & Visualization
+![Stock Analysis](Assets/2.png)
+
+Live demo:
+URL Link for dashboard:
+
+
+
+## Project Objective
 
 The goal of this project is to make **stock analysis intuitive and decision-focused** by:
 
@@ -17,7 +30,7 @@ This project is intentionally **analysis-driven**, not prediction-driven.
 
 ---
 
-## 📊 Features
+## Features
 
 - Stock selection using Yahoo Finance ticker symbols  
 - Time-range selection (1Y, 3Y, 5Y, MAX)  
@@ -38,7 +51,7 @@ This project is intentionally **analysis-driven**, not prediction-driven.
 
 ---
 
-## 🧠 Analysis Approach
+## Analysis Approach
 
 Instead of focusing on predictions, the dashboard emphasizes **financial behavior and risk**:
 
@@ -58,7 +71,7 @@ This approach aligns with how analysts and investors evaluate stocks in practice
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Python**
 - **Streamlit** — interactive dashboard
@@ -69,14 +82,14 @@ This approach aligns with how analysts and investors evaluate stocks in practice
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the repository
 ```bash
 git clone <your-repo-url>
 cd stock-dashboard
 
-### 2. Clone the repository
+## 2. Clone the repository
 python -m venv venv
 source venv/bin/activate      # macOS / Linux
 venv\Scripts\activate         # Windows
