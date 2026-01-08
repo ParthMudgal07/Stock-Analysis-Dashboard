@@ -51,9 +51,16 @@ This project is intentionally **analysis-driven**, not prediction-driven.
 
 ---
 
-## Analysis Approach
+##---
 
-Instead of focusing on predictions, the dashboard emphasizes **financial behavior and risk**:
+## Data Analysis & Modeling
+
+The project includes dedicated modules for exploratory data analysis and predictive modeling:
+
+- **`01_stock_analysis_process.ipynb`**
+  - Stock price trend analysis
+  - OHLC and volume visualizations
+  - Moving averages and technical insights
 
 - **Daily Returns**  
   Captures short-term price movements and market noise.
@@ -67,7 +74,6 @@ Instead of focusing on predictions, the dashboard emphasizes **financial behavio
 - **Drawdown**  
   Highlights peak-to-trough losses, representing downside risk and investor pain.
 
-This approach aligns with how analysts and investors evaluate stocks in practice.
 
 ---
 
