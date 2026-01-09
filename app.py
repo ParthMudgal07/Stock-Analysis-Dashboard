@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # Page configuration
 # --------------------------------------------------
 st.set_page_config(
-    page_title="Stock Decision Dashboard",
+    page_title="Stock Analysis Dashboard",
     layout="wide"
 )
 
@@ -90,10 +90,10 @@ st.markdown(
 # --------------------------------------------------
 # Sidebar
 # --------------------------------------------------
-st.sidebar.title("📊 Stock Selector")
+st.sidebar.title("Stock Selector")
 
 ticker = st.sidebar.text_input(
-    "Stock Ticker (Yahoo Finance)",
+    "Stock Ticker",
     value="RELIANCE.NS"
 )
 
@@ -164,7 +164,7 @@ stock_name = ticker.replace(".NS", "")
 # --------------------------------------------------
 # Header
 # --------------------------------------------------
-st.markdown("## 📈 Stock Decision Dashboard")
+st.markdown("## Stock Analysis Dashboard")
 st.caption(f"**{ticker}** | Time Range: **{time_range}**")
 
 # --------------------------------------------------
@@ -257,3 +257,4 @@ st.markdown("#### Observation")
 st.write(observation)
 
 st.markdown("---")
+
